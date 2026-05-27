@@ -371,10 +371,11 @@ class App(ctk.CTk):
         )
         self.status_label.grid(row=8, column=0, padx=24, pady=(2, 12), sticky="w")
 
-        ctk.CTkLabel(
-            self, text="Xulehan Yu", font=("Microsoft YaHei UI", 10),
-            text_color="gray35", anchor="e",
-        ).grid(row=8, column=0, padx=24, pady=(2, 12), sticky="e")
+        # 署名标签（如需显示个人署名，可取消注释并修改）
+        # ctk.CTkLabel(
+        #     self, text="作者姓名", font=("Microsoft YaHei UI", 10),
+        #     text_color="gray35", anchor="e",
+        # ).grid(row=8, column=0, padx=24, pady=(2, 12), sticky="e")
 
         # 初始主题
         ctk.set_appearance_mode("dark")

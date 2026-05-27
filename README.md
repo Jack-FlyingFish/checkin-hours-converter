@@ -33,7 +33,7 @@ python process_checkin.py --input 签到详情.xlsx --output 输出.xlsx --auto
 
 # 手动指定参数
 python process_checkin.py --input 签到详情.xlsx --output 输出.xlsx \
-  --activity-name "3.11海亮校园宣讲" --activity-date "2026.03.11" \
+  --activity-name "3.15某某企业宣讲" --activity-date "2026.03.15" \
   --hours "就业指导2课时"
 ```
 
